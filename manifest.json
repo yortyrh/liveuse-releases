@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "version": "0.4.1",
+  "tag": "firmware-v0.4.1",
+  "notes": "## [0.4.1] - 2026-10-11\n\n### Fixed\n\n- `TYPE` types the spaces in the text. One space separates the command from the payload; every space after that is typed.\n- The right GUI key is named `cmdright`. The spelling `cmdrigh` never matched.",
+  "boards": [
+    {
+      "id": "seeed_xiao",
+      "name": "Seeed XIAO SAMD21",
+      "file": "liveuse-seeed_xiao-0.4.1.bin",
+      "url": "https://github.com/yortyrh/liveuse-releases/releases/download/firmware-v0.4.1/liveuse-seeed_xiao-0.4.1.bin",
+      "sha256": "816d1baa0835ab23f028d7ba0065368bf066420c315388401b623427bd7ac7f9",
+      "size": 38756,
+      "usb": {
+        "running": {
+          "vid": "0x2886",
+          "pid": "0x802F"
+        },
+        "bootloader": {
+          "vid": "0x2886",
+          "pid": "0x002F"
+        }
+      },
+      "flash": {
+        "protocol": "sam-ba",
+        "enter": "1200bps-touch",
+        "offset": "0x2000"
+      }
+    }
+  ]
+}
