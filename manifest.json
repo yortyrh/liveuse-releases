@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "version": "0.4.1",
-  "tag": "firmware-v0.4.1",
-  "notes": "## [0.4.1] - 2026-10-11\n\n### Fixed\n\n- `TYPE` types the spaces in the text. One space separates the command from the payload; every space after that is typed.\n- The right GUI key is named `cmdright`. The spelling `cmdrigh` never matched.",
+  "version": "0.5.0",
+  "tag": "firmware-v0.5.0",
+  "notes": "## [0.5.0] - 2026-10-12\n\n### Changed\n\n- The USB device identifies as LiveUse 0.5.0, made by LiveUse. The mouse interface is LiveUse Mouse 0.5.0 and the keyboard interface is LiveUse Keyboard 0.5.0.",
   "boards": [
     {
       "id": "seeed_xiao",
       "name": "Seeed XIAO SAMD21",
-      "file": "liveuse-seeed_xiao-0.4.1.bin",
-      "url": "https://github.com/yortyrh/liveuse-releases/releases/download/firmware-v0.4.1/liveuse-seeed_xiao-0.4.1.bin",
-      "sha256": "816d1baa0835ab23f028d7ba0065368bf066420c315388401b623427bd7ac7f9",
-      "size": 38756,
+      "file": "liveuse-seeed_xiao-0.5.0.bin",
+      "url": "https://github.com/yortyrh/liveuse-releases/releases/download/firmware-v0.5.0/liveuse-seeed_xiao-0.5.0.bin",
+      "sha256": "55f8e81d0b6baa2ccbcf2338f0658cdf1327deb9f253b3dffe0e502a02147a2f",
+      "size": 38872,
       "usb": {
         "running": {
           "vid": "0x2886",
