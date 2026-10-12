@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>LiveUse square</title>
+  <style>
+    body { font: 16px/1.45 system-ui, sans-serif; max-width: 36rem; margin: 2rem auto; padding: 0 1rem; }
+    button { font: inherit; margin-right: 0.5rem; }
+    #log { white-space: pre-wrap; color: #333; }
+  </style>
+</head>
+<body>
+  <h1>LiveUse</h1>
+  <p>Open this page in Chrome at <code>http://127.0.0.1</code>. Chrome asks for permission to use the serial port. The pointer draws a small square.</p>
+  <p>
+    <button id="connect" type="button">Connect</button>
+    <button id="once" type="button" disabled>Move now</button>
+    <label><input id="repeat" type="checkbox" disabled> Every 15 seconds</label>
+  </p>
+  <p id="log"></p>
+  <script>
+    const log = document.getElementById("log");
+    const once = document.getElementById("once");
+    const repeat = document.getElementById("repeat");
+    let writer = null;
+    let timer = null;
+    const square = ["MOVE 60 0", "MOVE 0 60", "MOVE -60 0", "MOVE 0 -60"];
+
+    function note(text) {
+      log.textContent += text + "\n";
+    }
+
+    async function sendLine(line) {
+      await writer.write(new TextEncoder().encode(line + "\n"));
+      note(line);
+    }
+
+    async function draw() {
+      for (const line of square) {
+        await sendLine(line);
+        await new Promise((resolve) => setTimeout(resolve, 250));
+      }
+    }
+
+    document.getElementById("connect").onclick = async () => {
+      if (!("serial" in navigator)) {
+        note("This browser has no Web Serial. Use Chrome or Edge.");
+        return;
+      }
+      const port = await navigator.serial.requestPort({
+        filters: [{ usbVendorId: 0x2886 }],
+      });
+      await port.open({ baudRate: 115200 });
+      writer = port.writable.getWriter();
+      once.disabled = false;
+      repeat.disabled = false;
+      note("Connected. STATUS reports the version:");
+      await sendLine("STATUS");
+    };
+
+    once.onclick = () => draw();
+
+    repeat.onchange = () => {
+      clearInterval(timer);
+      timer = null;
+      if (!repeat.checked) return;
+      timer = setInterval(() => {
+        draw().catch((err) => note(String(err)));
+      }, 15000);
+      note("The square repeats every 15 seconds. Change 15000 in this file for a different interval.");
+    };
+  </script>
+</body>
+</html>
