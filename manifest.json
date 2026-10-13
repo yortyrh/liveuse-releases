@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "version": "0.5.2",
-  "tag": "firmware-v0.5.2",
-  "notes": "## [0.5.2] - 2026-10-13\n\n### Changed\n\n- `STATUS` reports `fw=0.5.2`.\n- The USB device identifies as LiveUse 0.5.2, made by LiveUse. The mouse interface is LiveUse Mouse 0.5.2 and the keyboard interface is LiveUse Keyboard 0.5.2.",
+  "version": "0.5.3",
+  "tag": "firmware-v0.5.3",
+  "notes": "## [0.5.3] - 2026-10-13\n\n### Changed\n\n- `STATUS` reports `fw=0.5.3`.\n- The USB device identifies as LiveUse 0.5.3, made by LiveUse. The mouse interface is LiveUse Mouse 0.5.3 and the keyboard interface is LiveUse Keyboard 0.5.3.\n- `scripts/release.py` rewrites `fw=` and the USB product, mouse, and keyboard names so they match `firmware/VERSION`, then commits those files and creates the local tag `firmware-vX.Y.Z`. It does not push that commit or tag.",
   "boards": [
     {
       "id": "seeed_xiao",
       "name": "Seeed XIAO SAMD21",
-      "file": "liveuse-seeed_xiao-0.5.2.bin",
-      "url": "https://github.com/yortyrh/liveuse-releases/releases/download/firmware-v0.5.2/liveuse-seeed_xiao-0.5.2.bin",
-      "sha256": "fe87f221bd60401a0c164262e5744b6b768e0954664f72526c4b9d81a2912a12",
+      "file": "liveuse-seeed_xiao-0.5.3.bin",
+      "url": "https://github.com/yortyrh/liveuse-releases/releases/download/firmware-v0.5.3/liveuse-seeed_xiao-0.5.3.bin",
+      "sha256": "629b8a21443f0180bc35e990ed058e78195048ef137e5118425cefb8a2c016bd",
       "size": 38872,
       "usb": {
         "running": {
