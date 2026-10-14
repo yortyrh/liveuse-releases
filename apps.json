@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.1.0",
-  "tag": "app-v0.1.0",
+  "version": "0.2.0",
+  "tag": "app-v0.2.0",
   "signed": false,
   "downloads": [
     {
@@ -9,20 +9,20 @@
       "os": "macos",
       "arch": "x64",
       "name": "macOS Intel",
-      "file": "LiveUse_0.1.0_x64.dmg",
-      "url": "https://github.com/yortyrh/liveuse-releases/releases/download/app-v0.1.0/LiveUse_0.1.0_x64.dmg",
-      "sha256": "78b5ee0eba57dae3fd51a7d72b895032ee3e2935376e33e03bbcf08928b2b83c",
-      "size": 6293092
+      "file": "LiveUse_0.2.0_x64.dmg",
+      "url": "https://github.com/yortyrh/liveuse-releases/releases/download/app-v0.2.0/LiveUse_0.2.0_x64.dmg",
+      "sha256": "4ac7087a0877cae8ddecfc0302d32c6f06b144f361e2b8dbeb933c3737a359ad",
+      "size": 6399975
     },
     {
       "id": "macos-aarch64",
       "os": "macos",
       "arch": "aarch64",
       "name": "macOS Apple Silicon",
-      "file": "LiveUse_0.1.0_aarch64.dmg",
-      "url": "https://github.com/yortyrh/liveuse-releases/releases/download/app-v0.1.0/LiveUse_0.1.0_aarch64.dmg",
-      "sha256": "4c8c127692eaaea8288293f52082dff62cdb5db4e0d9af1485451282a0d3b685",
-      "size": 5840654
+      "file": "LiveUse_0.2.0_aarch64.dmg",
+      "url": "https://github.com/yortyrh/liveuse-releases/releases/download/app-v0.2.0/LiveUse_0.2.0_aarch64.dmg",
+      "sha256": "c37b1a0faff5abd40d8add0336e39e4346a838aedd1e838642147443fe8e4f84",
+      "size": 5947005
     }
   ]
 }
