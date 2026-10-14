@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "version": "0.5.7",
-  "tag": "firmware-v0.5.7",
-  "notes": "## [0.5.7] - 2026-10-13\n\n### Changed\n\n- `STATUS` reports `fw=0.5.7`.\n- The USB device identifies as LiveUse 0.5.7, made by LiveUse. The mouse interface is LiveUse Mouse 0.5.7 and the keyboard interface is LiveUse Keyboard 0.5.7.",
+  "version": "0.5.8",
+  "tag": "firmware-v0.5.8",
+  "notes": "## [0.5.8] - 2026-10-13\n\n### Changed\n\n- `STATUS` reports `fw=0.5.8`.\n- The USB device identifies as LiveUse 0.5.8, made by LiveUse. The mouse interface is LiveUse Mouse 0.5.8 and the keyboard interface is LiveUse Keyboard 0.5.8.",
   "boards": [
     {
       "id": "seeed_xiao",
       "name": "Seeed XIAO SAMD21",
-      "file": "liveuse-seeed_xiao-0.5.7.bin",
-      "url": "https://github.com/yortyrh/liveuse-releases/releases/download/firmware-v0.5.7/liveuse-seeed_xiao-0.5.7.bin",
-      "sha256": "786f8862df74396dfe195b81dc694e526021b21bcea0524211d47ea909a314df",
+      "file": "liveuse-seeed_xiao-0.5.8.bin",
+      "url": "https://github.com/yortyrh/liveuse-releases/releases/download/firmware-v0.5.8/liveuse-seeed_xiao-0.5.8.bin",
+      "sha256": "9095611f3607d66990dcc4c7e7cd17ab435be1b8806d653ecf6327e8a5c9d773",
       "size": 38872,
       "usb": {
         "running": {
