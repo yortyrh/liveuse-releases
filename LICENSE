@@ -1,0 +1,103 @@
+LiveUse Firmware Binary License
+
+Copyright (c) 2026 Yorty Ruiz. All rights reserved.
+
+This license covers the compiled LiveUse firmware images published in this
+repository and as assets of its GitHub releases (files named
+liveuse-*.bin and any other firmware image), together with the files in
+assets/ (the "Firmware"). The documentation, the manifests and the examples
+are covered by the licenses listed in "Other files" below.
+
+1. Grant
+
+   Subject to the terms of this license, the copyright holder grants you a
+   free, non-exclusive, non-transferable, revocable license to:
+
+   a. download the Firmware and install it on Seeed Studio XIAO SAMD21
+      boards (also sold as Seeeduino XIAO) that you own or control; and
+
+   b. use the Firmware on those boards,
+
+   for non-commercial purposes only.
+
+2. Redistribution
+
+   You may redistribute the Firmware only in its original binary form,
+   unmodified, free of charge, and accompanied by this license. You may not
+   sell the Firmware, charge for it, or bundle it with a product or service
+   that is sold.
+
+3. Non-commercial use
+
+   "Non-commercial" means use that is not primarily intended for or
+   directed toward commercial advantage or monetary compensation. Without a
+   separate written license from the copyright holder, you may not, among
+   other things:
+
+   a. sell, rent or lease boards or devices that carry the Firmware;
+
+   b. use the Firmware to provide a paid product or service, including
+      testing, automation or support services offered to third parties; or
+
+   c. use the Firmware inside a business, for its internal operations.
+
+   Personal use, education, research, and evaluation are non-commercial.
+   To request a commercial license, contact the copyright holder through
+   https://github.com/yortyrh.
+
+4. Restrictions
+
+   Except to the extent that applicable law expressly permits it despite
+   this limitation, you may not:
+
+   a. decompile, disassemble or reverse engineer the Firmware, or attempt to
+      derive its source code, algorithms or USB protocol implementation;
+
+   b. modify, adapt, translate or patch the Firmware, or create derivative
+      works based on it;
+
+   c. remove or alter any copyright notice, version string, or USB
+      manufacturer or product name contained in the Firmware; or
+
+   d. install the Firmware on hardware other than the Seeed Studio XIAO
+      SAMD21.
+
+   Using the documented serial (CDC) commands to control a board that runs
+   the Firmware is not reverse engineering and is permitted.
+
+5. Ownership
+
+   The Firmware is licensed, not sold. The copyright holder keeps all
+   rights, title and interest in the Firmware. All rights not expressly
+   granted in this license are reserved.
+
+6. Termination
+
+   This license ends automatically if you breach any of its terms. When it
+   ends, you must stop using the Firmware and delete every copy you have.
+   Sections 5, 6, 7 and 8 survive termination.
+
+7. No warranty
+
+   THE FIRMWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+   FLASHING FIRMWARE CAN LEAVE A BOARD UNUSABLE; YOU DO IT AT YOUR OWN RISK.
+
+8. Limitation of liability
+
+   IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES
+   OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+   ARISING FROM, OUT OF OR IN CONNECTION WITH THE FIRMWARE OR THE USE OR
+   OTHER DEALINGS IN THE FIRMWARE, INCLUDING DAMAGE TO HARDWARE OR LOSS OF
+   DATA.
+
+Other files
+
+- README.md, manifest.json and apps.json: Creative Commons
+  Attribution-NonCommercial 4.0 International (CC BY-NC 4.0). See
+  LICENSE-docs.
+- examples/: MIT License. See examples/LICENSE.
+- The macOS app installers published as releases are built from the source
+  at https://github.com/yortyrh/liveuse and are distributed under that
+  repository's MIT License.

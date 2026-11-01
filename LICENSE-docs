@@ -1,0 +1,15 @@
+Copyright (c) 2026 Yorty Ruiz
+
+README.md, manifest.json and apps.json in this repository are licensed
+under the Creative Commons Attribution-NonCommercial 4.0 International
+License (CC BY-NC 4.0).
+
+You may share and adapt this material for non-commercial purposes, as long
+as you give appropriate credit, link to the license, and indicate if changes
+were made. You may not use it for commercial purposes.
+
+Full legal code: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+Summary: https://creativecommons.org/licenses/by-nc/4.0/
+
+This license does not cover the firmware images or the files in assets/
+(see LICENSE) or the files in examples/ (see examples/LICENSE).

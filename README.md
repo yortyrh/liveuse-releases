@@ -404,3 +404,14 @@ Hardware:
 
 - Board: [Seeed Studio XIAO SAMD21 (Seeeduino XIAO)](https://wiki.seeedstudio.com/Seeeduino-XIAO/).
 - Case: [`xiao-samd21-case` on Creality Cloud](https://www.crealitycloud.com/model-detail/xiao-samd21-case).
+
+## License
+
+| Files | License |
+|---|---|
+| Firmware images (`liveuse-*.bin`, release assets) and `assets/` | [LiveUse Firmware Binary License](LICENSE): free for non-commercial use, unmodified redistribution only, no reverse engineering |
+| `README.md`, `manifest.json`, `apps.json` | [CC BY-NC 4.0](LICENSE-docs) |
+| `examples/` | [MIT](examples/LICENSE) |
+| macOS app installers | [MIT](https://github.com/yortyrh/liveuse/blob/main/LICENSE), built from [`liveuse`](https://github.com/yortyrh/liveuse) |
+
+For commercial use of the firmware, contact [yortyrh](https://github.com/yortyrh).
